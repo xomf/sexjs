@@ -1,4 +1,4 @@
-# sexjs
+# sex.js
 
 ## Testimonials
 > yes

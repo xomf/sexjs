@@ -1,0 +1,3 @@
+function sex(){
+    alert("sex");
+}

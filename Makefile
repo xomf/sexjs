@@ -1,8 +1,8 @@
 
 
-all: build/lewdjs.wasm
+all: build/sexjs.wasm
 
-dev: all build/lewdjs.wat compile_commands.json
+dev: all build/sexjs.wat compile_commands.json
 
 %.wat: %.wasm
 	wasm2wat -o $@ $<

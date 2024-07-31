@@ -1,6 +1,6 @@
 export default async function init() {
     const { instance } = await WebAssembly.instantiateStreaming(
-        fetch("./add.wasm"),
+        fetch("./build/sexjs.wasm"),
         {
             env: {
                 alert: (ptr) => {
